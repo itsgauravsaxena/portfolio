@@ -11,8 +11,8 @@ function AnimatedLogo(): ReactElement {
   const solidBackgroundAnim = useAnimation();
   const gradientBackgroundAnim = useAnimation();
   const initialsAnims = {
-    p: useAnimation(),
-    k: useAnimation(),
+    g: useAnimation(),
+    s: useAnimation(),
   };
   const fullNameAnim = useAnimation();
 
@@ -46,26 +46,26 @@ function AnimatedLogo(): ReactElement {
       });
     },
 
-    initialsP: async () => {
-      await initialsAnims.p.start({
+    initialsG: async () => {
+      await initialsAnims.g.start({
         transform: 'translateX(-10px)',
 
         transition: { duration: 1 },
       });
 
-      await initialsAnims.p.start({
+      await initialsAnims.g.start({
         opacity: [1, 0],
         transition: { duration: 1, delay: 0.5 },
       });
     },
 
-    initialsK: async () => {
-      await initialsAnims.k.start({
+    initialsS: async () => {
+      await initialsAnims.s.start({
         transform: 'translateX(8px)',
         transition: { duration: 1 },
       });
 
-      await initialsAnims.k.start({
+      await initialsAnims.s.start({
         opacity: [1, 0],
         transition: { duration: 1, delay: 0.5 },
       });
@@ -81,8 +81,8 @@ function AnimatedLogo(): ReactElement {
     start: async () => {
       controls.gradientBackground();
       controls.solidBackground().then(() => {
-        controls.initialsP();
-        controls.initialsK();
+        controls.initialsG();
+        controls.initialsS();
         controls
           .wrapper()
           .then(() => {
@@ -105,20 +105,20 @@ function AnimatedLogo(): ReactElement {
         transition: { duration: 0.5 },
       });
 
-      initialsAnims.k.start({
+      initialsAnims.s.start({
         opacity: 1,
         transition: { duration: 0.2 },
       });
-      initialsAnims.k.start({
+      initialsAnims.s.start({
         transform: 'translateX(0px)',
         transition: { duration: 1.2 },
       });
 
-      initialsAnims.p.start({
+      initialsAnims.g.start({
         opacity: 1,
         transition: { duration: 0.2 },
       });
-      initialsAnims.p
+      initialsAnims.g
         .start({
           transform: 'translateX(0px)',
           transition: { duration: 1.2 },
@@ -159,11 +159,11 @@ function AnimatedLogo(): ReactElement {
       className={styles.logoContainer}
     >
       <h1 className={styles.nameInitials}>
-        <motion.span animate={initialsAnims.p}>p</motion.span>
-        <motion.span animate={initialsAnims.k}>k</motion.span>
+        <motion.span animate={initialsAnims.g}>G</motion.span>
+        <motion.span animate={initialsAnims.s}>S</motion.span>
       </h1>
       <motion.h1 animate={fullNameAnim} className={styles.nameFull}>
-        pedro klepa
+        Gaurav Saxena
       </motion.h1>
 
       <motion.div

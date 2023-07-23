@@ -124,7 +124,7 @@ function ContactSection({ setContactRef }: Props): ReactElement {
           </h2> */}
           <div className={styles.emailWrapper}>
             <p>Write me an e-mail at:</p>
-            <h1>pedro.klepa+contact@gmail.com</h1>
+            <h1>gauravsaxena.ec@gmail.com</h1>
           </div>
 
           <h2 className={styles.separator}>Or</h2>
@@ -134,7 +134,7 @@ function ContactSection({ setContactRef }: Props): ReactElement {
 
             <div>
               <a
-                href="https://github.com/pklepa"
+                href="https://github.com/itsgauravsaxena"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.iconWrapper}
@@ -147,7 +147,7 @@ function ContactSection({ setContactRef }: Props): ReactElement {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/pedro-klepa/"
+                href="https://linkedin.com/in/gaurav-saxena-dk"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.iconWrapper}

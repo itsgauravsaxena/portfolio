@@ -7,18 +7,18 @@ function ProfilePic({}: Props): ReactElement {
   return (
     <div className={styles.container}>
       <img
-        src="/images/pk_draw.jpeg"
+        src="/images/gsa.jpg"
         className={`${styles.secondary} ${styles.left}`}
       />
       <img
-        src="/images/pk_draw.jpeg"
+        src="/images/gsa.jpg"
         className={`${styles.secondary} ${styles.right}`}
       />
 
-      <img src="/images/pk_draw.jpeg" alt="Small doodle of myself" />
+      <img src="/images/gsa.jpg" alt="Small doodle of myself" />
 
       <img
-        src="/images/pk_draw2.png"
+        src="/images/gsa.png"
         alt="Alternative doodle of myself"
         className={styles.easterEgg}
       />
