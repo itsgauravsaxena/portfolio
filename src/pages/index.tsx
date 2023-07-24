@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pedro Klepa</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Gaurav Saxena</title>
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <div className={styles.container}>
