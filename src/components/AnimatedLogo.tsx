@@ -73,7 +73,7 @@ function AnimatedLogo(): ReactElement {
 
     wrapper: async () => {
       await wrapperAnim.start({
-        width: '200px',
+        width: '300px',
         transition: { duration: 0.6 },
       });
     },

@@ -66,6 +66,11 @@ function SkillsSection(): ReactElement {
                 <img src="/icons/icon_next.svg" alt="next" />
                 <h2>NextJS</h2>
               </div>
+
+              <div className={styles.item}>
+                <img src="/icons/icon_angular.svg" alt="next" />
+                <h2>Angular</h2>
+              </div>
             </div>
 
             <div className={styles.row}>
@@ -188,12 +193,12 @@ function SkillsSection(): ReactElement {
           <img src="/icons/united-kingdom.svg" alt="UK" />
         </span>
         <span>
-          Eu falo <strong>português</strong>
-          <img src="/icons/brazil.svg" alt="BR" />
+          Jeg taler <strong>Dansk</strong>
+          <img src="/icons/danish.svg" alt="BR" />
         </span>
         <span>
-          Je parle <strong>français</strong>
-          <img src="/icons/france.svg" alt="FR" />
+         मैं <strong>हिंदी</strong> बोल सकता हूँ 
+          <img src="/icons/india.svg" alt="FR" />
         </span>
       </div>
     </section>

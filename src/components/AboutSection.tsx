@@ -42,7 +42,7 @@ function AboutSection({ contactRef }: Props): ReactElement {
               direction="right"
             />
             <ScrollingText
-              text="Cool Millenial Fella &middot; "
+              text="Backend Java Developer &middot; "
               direction="left"
             />
           </div>

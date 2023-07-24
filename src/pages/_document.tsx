@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           />
 
           {/* Meta tags for Social Media sharing preview */}
-          <meta property="og:title" content="Pedro Klepa - Portfolio" />
+          <meta property="og:title" content="Gaurav Saxena - Portfolio" />
           <meta
             property="og:description"
             content="Showcase for some of selected work and personal details."
@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://user-images.githubusercontent.com/22618438/108611640-6041fe80-73d8-11eb-95f3-12546bbe2c1f.png"
           />
-          <meta property="og:url" content="https://pedroklepa.com/" />
+          <meta property="og:url" content="https://gauravsaxena.dk/" />
         </Head>
 
         <body>
