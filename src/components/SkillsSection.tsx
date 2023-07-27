@@ -120,19 +120,32 @@ function SkillsSection(): ReactElement {
             <div className={styles.row}>
               <div className={styles.item}>
                 <img src="/icons/icon_mongodb.svg" alt="mongodb" />
-                <h2>MongoDB</h2>
+                <h2>Java</h2>
+              </div>
+
+              <div className={styles.item}>
+                <img src="/icons/icon_mongodb.svg" alt="mongodb" />
+                <h2>OracleDB</h2>
               </div>
 
               <div className={styles.item}>
                 <img src="/icons/icon_pug.svg" alt="pug" />
-                <h2>Pug / Jade</h2>
+                <h2>Spring eureka</h2>
               </div>
             </div>
 
             <div className={styles.row}>
               <div className={styles.item}>
                 <img src="/icons/icon_jest.svg" alt="jest" />
-                <h2>Jest</h2>
+                <h2>Kafka</h2>
+              </div>
+              <div className={styles.item}>
+                <img src="/icons/icon_jest.svg" alt="jest" />
+                <h2>Zuul gateway</h2>
+              </div>
+              <div className={styles.item}>
+                <img src="/icons/icon_jest.svg" alt="jest" />
+                <h2>AWS Cloud</h2>
               </div>
             </div>
           </div>
@@ -156,37 +169,31 @@ function SkillsSection(): ReactElement {
             <div className={styles.row}>
               <div className={styles.item}>
                 <img src="/icons/icon_firebase.svg" alt="firebase" />
-                <h2>Firebase</h2>
+                <h2>k8s</h2>
               </div>
 
               <div className={styles.item}>
                 <img src="/icons/icon_webpack.svg" alt="webpack" />
-                <h2>Webpack</h2>
+                <h2>Docker</h2>
               </div>
             </div>
 
             <div className={styles.row}>
               <div className={styles.item}>
                 <img src="/icons/icon_figma.svg" alt="figma" />
-                <h2>Figma</h2>
+                <h2>IntelliJ</h2>
               </div>
 
-              <div className={styles.item}>
-                <img src="/icons/icon_illustrator.svg" alt="illustrator" />
-                <h2>Adobe Illustrator</h2>
-              </div>
-            </div>
-
-            <div className={styles.row}>
-              <div className={styles.item}>
-                <img src="/icons/icon_linux.svg" alt="linux" />
-                <h2>Linux</h2>
+              <div className={styles.row}>
+                <div className={styles.item}>
+                  <img src="/icons/icon_linux.svg" alt="linux" />
+                  <h2>Linux</h2>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div className={styles.languagesWrapper}>
         <span>
           I speak <strong>English</strong>{' '}
@@ -197,7 +204,7 @@ function SkillsSection(): ReactElement {
           <img src="/icons/danish.svg" alt="BR" />
         </span>
         <span>
-         मैं <strong>हिंदी</strong> बोल सकता हूँ 
+          मैं <strong>हिंदी</strong> बोल सकता हूँ
           <img src="/icons/india.svg" alt="FR" />
         </span>
       </div>
